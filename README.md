@@ -4,7 +4,7 @@ A simplistic, modular-MVC style [Sinatra](http://www.sinatrarb.com/) boilerplate
 
 The is a starting point and is by no means a complete application. You should be able to use this to kick the fire for your own applications relatively fast. We use this over at [Wixel](http://wixelhq.com) for fast prototyping.
 
-I assume you have GIT installed and understand how to use it via the command line. HTML5 Boilerplate has been included by default to help you speed up your front-end creation.
+I assume you have Git installed and understand how to use it via the command line. HTML5 Boilerplate has been included by default to help you speed up your front-end creation.
 
 ## Installation ##
 
