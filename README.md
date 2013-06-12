@@ -1,6 +1,6 @@
 # Hello, Frank - Sinatra
 
-A simplistic, modular-MVC style [Sinatra](http://www.sinatrarb.com/) boilerplate for rapid application prototyping. Most batteries included and charged to an app up and running in no time. Deployment to [Heroku](http://heroku.com) is effortless.
+A simplistic, modular-MVC style [Sinatra](http://www.sinatrarb.com/) boilerplate for rapid application prototyping. Most batteries included and charged enough to get an app up and running in no time. Deployment to [Heroku](http://heroku.com) is painless.
 
 The is a starting point and is by no means a complete application. You should be able to use this to kick the fire for your own applications relatively fast. We use this over at [Wixel](http://wixelhq.com) for fast prototyping.
 
