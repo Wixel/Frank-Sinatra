@@ -1,6 +1,6 @@
-# Frank - Modular/MVC Sinatra Application Boilerplate
+# Hello, Frank - Sinatra
 
-A simplistic, modular-MVC style [Sinatra](http://www.sinatrarb.com/) boilerplate for rapid application prototyping. Included are all the gems an average application would need. Deployment too [Heroku](http://heroku.com) is effortless.
+A simplistic, modular-MVC style [Sinatra](http://www.sinatrarb.com/) boilerplate for rapid application prototyping. Most batteries included and charged to an app up and running in no time. Deployment to [Heroku](http://heroku.com) is effortless.
 
 The is a starting point and is by no means a complete application. You should be able to use this to kick the fire for your own applications relatively fast. We use this over at [Wixel](http://wixelhq.com) for fast prototyping.
 
@@ -88,7 +88,7 @@ Your database defaults to SqlLite3 until you manually change the Adapter setting
 
 ### Databases/Models ###
 
-You can use any database abstraction layer, but we prefer [DataMapper](http://datamapper.org/) and will us it by default in Frank-Sinatra. 
+You can use any database abstraction layer, but we prefer [DataMapper](http://datamapper.org/) and we'll use it by default in Frank-Sinatra. 
 
 If you've come this far, DataMapper should already be installed along side your project (`bundle install`). 
 
