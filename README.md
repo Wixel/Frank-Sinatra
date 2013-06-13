@@ -101,7 +101,7 @@ Read more about DataMapper in their [excellent documentation](http://datamapper.
 
 ##### Trouble installing dm-mysql-adapter? #####
 
-You probably need to install MySQL. You try ONE of the following options:
+You probably need to install MySQL. You can try one of the following options:
 
 With MacPorts:
 
