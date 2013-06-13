@@ -105,7 +105,7 @@ You probably need to install MySQL. You can try one of the following options:
 
 With MacPorts:
 
-	$ sudo apt-get install libmysqlclient-dev
+	$ sudo port install mysql5
 	
 With RPM:
 
