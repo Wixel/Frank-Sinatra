@@ -61,11 +61,13 @@ You can now access your app at [http://localhost:5000](http://localhost:5000)
   * BSON
   * Sinatra-flash
   * Logger
-  * Pony
+  * [Pony](https://github.com/benprew/pony)
   * Omniauth
   * Mime-types
   * Fog
-  * Will_paginate	
+  * Will Paginate	
+  * Data Mapper
+  * Awesome Print
 
 
 ## Usage & Modifying ##
