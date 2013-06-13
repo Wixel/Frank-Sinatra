@@ -56,7 +56,7 @@ You can now access your app at [http://localhost:5000](http://localhost:5000)
   * Rack
   * Sinatra 1.4.3
   * Builder
-  * SqlLite3
+  * Sqlite3
   * HAML
   * BSON
   * Sinatra-flash
@@ -87,7 +87,7 @@ Before running your application successfully, you will need to do the following:
 	File: config/development.yaml
 	File: config/production.yaml
 	
-Your database defaults to SqlLite3 until you manually change the Adapter setting in `database.yaml`
+Your database defaults to sqlite3 until you manually change the Adapter setting in `database.yaml`
 
 ### Databases/Models ###
 
