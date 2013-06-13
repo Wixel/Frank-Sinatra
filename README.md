@@ -99,6 +99,22 @@ You define models in the `models` directory. We've created one called `user.rb` 
 
 Read more about DataMapper in their [excellent documentation](http://datamapper.org/docs/).
 
+##### Trouble installing dm-mysql-adapter? #####
+
+You probably need to install MySQL. You try ONE of the following options:
+
+With MacPorts:
+
+	$ sudo apt-get install libmysqlclient-dev
+	
+With RPM:
+
+	$ sudo yum install mysql-devel
+	
+With Homebrew:
+
+	$ brew install mysql
+
 ### Controllers ###
 
 Your controllers are simply extending your base App class. Controllers do not reserve specific urls segments. 

@@ -14,7 +14,7 @@ class App < Sinatra::Base
   
   # Development Specific configs
   configure :development do
-    # Put your development specific configs in here
+    DataMapper::Logger.new($stdout, :debug)
   end
 
   # Production specific configs
@@ -35,7 +35,7 @@ class App < Sinatra::Base
         DataMapper.setup(:default, "mysql://#{dbconf["username"]}:#{dbconf["password"]}@#{dbconf["host"]}/#{dbconf["database"]}")
       when "postgres"
         dbconf = dbconf[ENV['RACK_ENV']]
-        DataMapper.setup(:postgres, "mysql://#{dbconf["username"]}:#{dbconf["password"]}@#{dbconf["host"]}/#{dbconf["database"]}")
+        DataMapper.setup(:postgres, "postgres://#{dbconf["username"]}:#{dbconf["password"]}@#{dbconf["host"]}/#{dbconf["database"]}")
       when "sqlite3"
         DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/db/application.db")
     end    
