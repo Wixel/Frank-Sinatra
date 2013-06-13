@@ -69,6 +69,7 @@ You can now access your app at [http://localhost:5000](http://localhost:5000)
   * Data Mapper
   * Awesome Print
 
+Feel free to add and remove from your Gemfile as needed.
 
 ## Usage & Modifying ##
 
