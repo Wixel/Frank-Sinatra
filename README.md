@@ -123,7 +123,7 @@ Best practice is to prepend your mount-point with the logical controller->url na
 	
 auth.rb mounts to '/auth/ using:
 
-	$ get '/auth/login' do
+	get '/auth/login' do
 		erb :login
 	end
 
