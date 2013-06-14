@@ -206,6 +206,12 @@ Log in to your Heroku account via the CLI toolbelt:
 
 You can find more info on the official [Heroku Dev Center](https://devcenter.heroku.com/articles/ruby) page.
 
+# TODO #
+
+* Integrating test coverage or a template to build from
+* 
+
+
 # License #
 
 Copyright &copy; 2013 Wixel <team@wixelhq.com>

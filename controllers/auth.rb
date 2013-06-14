@@ -1,5 +1,5 @@
 class App < Sinatra::Base	
-	# Display the index.erb page
+	# Display the auth login page
 	get '/auth/login' do
 		erb :login
 	end
