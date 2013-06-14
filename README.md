@@ -57,7 +57,6 @@ You can now access your app at [http://localhost:5000](http://localhost:5000)
   * Sinatra 1.4.3
   * Builder
   * Sqlite3
-  * HAML
   * BSON
   * Sinatra-flash
   * Logger
@@ -123,8 +122,10 @@ Best practice is to prepend your mount-point with the logical controller->url na
 	
 auth.rb mounts to '/auth/ using:
 
-	get '/auth/login' do
-		erb :login
+	class App < Sinatra::Base	
+		get '/auth/login' do
+			erb :login
+		end
 	end
 
 Going to http://host/auth/login renders controllers -> auth.rb
