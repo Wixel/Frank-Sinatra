@@ -21,6 +21,7 @@ gem "awesome_print", :require => 'ap'
 
 group :development do
   gem "shotgun"
+  gem "foreman"
   gem "dm-sqlite-adapter"
 end
 

@@ -53,20 +53,22 @@ You can now access your app at [http://localhost:5000](http://localhost:5000)
 
 #### Installed Components ####
 	
-  * Rack
-  * Sinatra 1.4.3
-  * Builder
-  * Sqlite3
-  * BSON
-  * Sinatra-flash
-  * Logger
+  * [Rack](http://rack.github.io/)
+  * [Sinatra 1.4.3](http://www.sinatrarb.com/)
+  * [Builder](https://github.com/jimweirich/builder)
+  * [Sqlite3](https://github.com/luislavena/sqlite3-ruby)
+  * [BSON](http://bsonspec.org/)
+  * [Sinatra-flash](https://github.com/SFEley/sinatra-flash)
+  * [Logger](https://github.com/nahi/logger)
   * [Pony](https://github.com/benprew/pony)
-  * Omniauth
-  * Mime-types
-  * Fog
-  * Will Paginate	
-  * Data Mapper
-  * Awesome Print
+  * [Omniauth](https://github.com/intridea/omniauth)
+  * [Mime-types](http://mime-types.rubyforge.org/)
+  * [Fog](http://fog.io/)
+  * [Will Paginate](https://github.com/mislav/will_paginate)
+  * [Data Mapper](http://datamapper.org/)
+  * [Awesome Print](https://github.com/michaeldv/awesome_print)
+  * [Shotgun](https://github.com/rtomayko/shotgun) 
+  * [Foreman](https://github.com/ddollar/foreman)
 
 Feel free to add and remove from your Gemfile as needed.
 
@@ -97,6 +99,17 @@ If you've come this far, DataMapper should already be installed along side your 
 You define models in the `models` directory. We've created one called `user.rb` for demonstration purposes. 
 
 Read more about DataMapper in their [excellent documentation](http://datamapper.org/docs/).
+
+Here's an example of a very simple User model (yes, it's that simple):
+
+	class User
+    	include DataMapper::Resource
+	    property :id, Serial
+	    property :name, String
+	    property :email, Text
+	    property :password, Text    
+	    property :created_at, DateTime
+	end
 
 ##### Trouble installing dm-mysql-adapter? #####
 
@@ -208,9 +221,8 @@ You can find more info on the official [Heroku Dev Center](https://devcenter.her
 
 # TODO #
 
-* Integrating test coverage or a template to build from
-* 
-
+* Integrating test coverage or a template to build test from
+* Wire up some of the other Gems to show how they can be used
 
 # License #
 

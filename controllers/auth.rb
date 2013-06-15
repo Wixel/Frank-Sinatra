@@ -28,6 +28,10 @@ class App < Sinatra::Base
 		user = User.create(:email => params[:email], :password => params[:password], :created_at => Time.now)
 		session[:user_id] = user.id
 		session[:authorized] = true		
+		
+		# Notify the new user
+		Pony.mail(:to => params[:email], :from => 'you@you.com', :subject => 'Welcome!', :body => 'Frank-Sinatra has spoken')
+		
 		redirect "/auth/dashboard"
 	end	
 
