@@ -141,6 +141,9 @@ auth.rb mounts to '/auth/ using:
 		get '/auth/login' do
 			erb :login
 		end
+		post '/auth/login' do
+			# Perform login action
+		end
 	end
 
 Going to http://host/auth/login renders controllers -> auth.rb
