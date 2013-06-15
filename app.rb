@@ -48,6 +48,7 @@ class App < Sinatra::Base
     set :public_folder , File.dirname(__FILE__) + '/public'
     set :app_file      , __FILE__
     set :views         , File.dirname(__FILE__) + '/views'
+    set :tests         , File.dirname(__FILE__) + '/tests'
     set :haml          , :format => :html5 
     set :dump_errors   , true
     set :logging       , true

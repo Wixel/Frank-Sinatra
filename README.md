@@ -69,6 +69,9 @@ You can now access your app at [http://localhost:5000](http://localhost:5000)
   * [Awesome Print](https://github.com/michaeldv/awesome_print)
   * [Shotgun](https://github.com/rtomayko/shotgun) 
   * [Foreman](https://github.com/ddollar/foreman)
+  * [Cucumber](http://cukes.info/)
+  * [Resque](https://github.com/resque/resque)
+  * [RMagick](https://github.com/rmagick/rmagick)
 
 Feel free to add and remove from your Gemfile as needed.
 

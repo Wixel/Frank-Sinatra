@@ -18,6 +18,8 @@ gem "will_paginate", "~> 3.0"
 gem "foreman"
 gem "data_mapper"
 gem "awesome_print", :require => 'ap'
+gem "cucumber"
+gem "resque"
 
 group :development do
   gem "shotgun"
