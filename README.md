@@ -180,7 +180,7 @@ Log in to your Heroku account via the CLI toolbelt:
 	http://blazing-galaxy-997.herokuapp.com/ | git@heroku.com:blazing-galaxy-997.git
 	Git remote heroku added
 	
-#### Deploy your code to Heroku ####	
+### Deploy your code to Heroku ###
 
 	$ git push heroku master
 	
