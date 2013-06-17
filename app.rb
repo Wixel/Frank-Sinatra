@@ -76,7 +76,7 @@ class App < Sinatra::Base
   
   # Log error and redirect
   error do
-    logger.info env['sinatra.error'].message # log this to the output
+    logger.error env['sinatra.error'].message # log this to the output
     redirect to('500.html')
   end
 

@@ -128,6 +128,14 @@ With RPM:
 With Homebrew:
 
 	$ brew install mysql
+	
+##### Working with PostgreSQL #####
+
+If you have chosen PostgreSQL as your database backend and you use OS-X, I highly recommend that you take a look at [PostgresApp](postgresapp.com).
+
+Uncomment the `gem dm-postgres-adapter` line in your Gemfile and set your database access credentials in `config/database.yaml`.
+
+You also need to change the adapter setting to `adapter:postgres` in the above mentioned database config.
 
 ### Controllers ###
 
