@@ -236,10 +236,3 @@ You can find more info on the official [Heroku Dev Center](https://devcenter.her
 
 * Integrating test coverage or a template to build test from
 * Wire up some of the other Gems to show how they can be used
-
-# License #
-
-Copyright &copy; 2013 Wixel <team@wixelhq.com>
-
-Frank-Sinatra is distributed under an MIT-style license. See LICENSE for
-details.
