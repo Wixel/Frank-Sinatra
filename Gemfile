@@ -20,6 +20,7 @@ gem "data_mapper"
 gem "awesome_print", :require => 'ap'
 gem "cucumber"
 gem "resque"
+gem "puma"
 
 group :development do
   gem "shotgun"
